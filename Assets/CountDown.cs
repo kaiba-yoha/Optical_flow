@@ -55,7 +55,7 @@ public class CountDown : MonoBehaviour
 
     void EndCountdown()
     {
-        isCountingDown = false;
+        //isCountingDown = false;
         countdownText.gameObject.SetActive(false);
         sphereGenerator.enabled = true;
     }
