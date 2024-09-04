@@ -959,7 +959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8984e1c0499dcb742a82cae1da55d4fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spherePrefab: {fileID: 0}
+  spherePrefab: {fileID: 3210722695914935944, guid: 708cb7cc2fa7f96408e9d6103e65d807, type: 3}
   sphereCount: 300
   spawnDistance: 150
   spawnRange: 10

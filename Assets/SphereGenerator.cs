@@ -29,7 +29,7 @@ public class SphereGenerator : MonoBehaviour
         {
             Vector3 randomPosition = mainCamera.transform.position + mainCamera.transform.forward * spawnDistance + Random.insideUnitSphere * spawnRange;
             randomPosition -= mainCamera.transform.forward * Random.value * spawnDistance;
-            GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            GameObject sphere = Instantiate(spherePrefab);
             //Instantiate(spherePrefab, randomPosition, Quaternion.identity);
             sphere.transform.position = randomPosition;
             sphere.transform.rotation = Quaternion.identity;
